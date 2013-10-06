@@ -3,6 +3,10 @@ L-99: Ninety-Nine Lisp Problems
 
 Original [site](http://www.ic.unicamp.br/~meidanis/courses/mc336/2006s2/funcional/L-99_Ninety-Nine_Lisp_Problems.html) with problems.
 
+[![TODOs by codenotes.me](http://codenotes.me/badge/13343719/todos.png)](http://codenotes.me)
+
+---
+
 Based on a Prolog problem list by werner.hett@hti.bfh.ch
 
 Working with lists
@@ -26,7 +30,7 @@ Example:
 (C D)
 ```
 
-###P03 (*) Find the K'th element of a list.
+###P03 (*) Find the `K`'th element of a list.
 
 The first element in the list is number 1.
 
@@ -134,7 +138,7 @@ Example:
 (A A A B B B C C C)
 ```
 
-###P16 (**) Drop every N'th element from a list.
+###P16 (**) Drop every `N`'th element from a list.
 
 Example:
 
