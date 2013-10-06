@@ -1,0 +1,7 @@
+(defun compress (lst)
+  (let ((last NIL) (res NIL))
+    (dolist (e lst)
+      (unless (eql e last)
+        (setf last e)
+        (setf res (append res (list e)))))
+    res))
