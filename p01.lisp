@@ -2,8 +2,8 @@
   (last lst))
 
 (defun my-last-2 (lst)
-  (if (cdr lst)
-    (my-last-2 (cdr lst))
+  (if (rest lst)
+    (my-last-2 (rest lst))
     lst))
 
 (defun my-last-3 (lst)
@@ -14,5 +14,5 @@
 
 (defun my-last-4 (lst)
   (do ((res lst))
-    ((not (cdr res)) res)
-    (setf res (cdr res))))
+    ((not (rest res)) res)
+    (setf res (rest res))))
